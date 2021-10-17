@@ -1,0 +1,26 @@
+.note-layout {
+    width: 50%;
+    position: relative;
+    margin: 10px auto 10px;
+}
+
+div > h2 {
+    color: #272121;
+    font-size: 28px;
+}
+
+div > p {
+    margin: 10px auto;
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    .note-layout {
+        width: 100%;
+        margin: 10px 5px;
+    }
+
+    div > p {
+        font-size: 17px;
+    }
+}

@@ -19,6 +19,7 @@ const NavbarCustom = (props) => {
     }
 
     const gradeClickHandler = (e) => {
+        ToggleHandler();
         props.gradeClick(e.target.value);
     }
 
@@ -34,6 +35,7 @@ const NavbarCustom = (props) => {
             <button value="second" onClick={gradeClickHandler}>大二</button>
             <button value="third" onClick={gradeClickHandler}>大三</button>
             <button value="fourth" onClick={gradeClickHandler}>大四</button>
+            <button value="readme" onClick={gradeClickHandler}>README</button>
             <input type="text" placeholder="Search" value={inputText} onChange={inputTextChangeHandler}/>
             <button className={classes.icon} onClick={ToggleHandler}>
                 <FontAwesomeIcon icon={faBars}/>
