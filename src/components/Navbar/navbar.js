@@ -31,11 +31,11 @@ const NavbarCustom = (props) => {
     return (
         <div className={classes["top-nav"]} id="myTopNav">
             <button className={classes.active}>NYCU ECE</button>
+            <button value="readme" onClick={gradeClickHandler}>README</button>
             <button value="first" onClick={gradeClickHandler}>大一</button>
             <button value="second" onClick={gradeClickHandler}>大二</button>
             <button value="third" onClick={gradeClickHandler}>大三</button>
             <button value="fourth" onClick={gradeClickHandler}>大四</button>
-            <button value="readme" onClick={gradeClickHandler}>README</button>
             <input type="text" placeholder="Search" value={inputText} onChange={inputTextChangeHandler}/>
             <button className={classes.icon} onClick={ToggleHandler}>
                 <FontAwesomeIcon icon={faBars}/>
