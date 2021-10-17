@@ -1,6 +1,6 @@
 {
   "name": "ece-learn",
-  "homepage": "https://nycu-ece-learn.github.io/",
+  "homepage": "https://nycu-ece-learn.github.io/ece-learn",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
