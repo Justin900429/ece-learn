@@ -1,0 +1,44 @@
+table {
+    margin: auto;
+    width: 70%;
+    position: relative;
+    border-collapse: collapse;
+}
+
+table th {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 6px -1px, rgba(0, 0, 0, 0.06) 0 2px 4px -1px;
+}
+
+table thead {
+    position: sticky;
+}
+
+table .center-col {
+    text-align: center;
+}
+
+tr:hover {
+    background-color: rgba(239, 239, 239, 0.7);
+}
+
+td, th {
+    border-top: 1px solid #dddddd;
+    padding: 8px;
+}
+
+td {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+@media (max-width: 768px) {
+    table {
+        width: 100%
+    }
+
+    table thead {
+        top: 240px;
+    }
+}
